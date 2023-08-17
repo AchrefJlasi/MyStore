@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html >
+ <head>
+ <meta charset="utf-8">
+ <title>SITE WEB</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" type="image/png" href="images/logo.png">
+ 
+ </head>
+ <body>
+
+ <header>
+   
+  <img src="images/logo.png" class="lol"> 
+  
+      <h2>Epic Game</h2>
+        <nav>
+             <ul>
+             <li> <a href="index.html"> HOME </a> </li>
+             <li> <a href=""> GAMING PC </a> </li>
+             <li> <a href=""> ACSESSOIRE </a> </li>
+             <li> <a href="GALLERIE.html"> GALLERIE </a> </li>
+             <li> <a href=""> CONTACT </a> </li>
+             </ul>
+          </nav>
+</header>
+
+<div class="imp"> 
+<p>Welcome to Epic Game</p>
+  <button> <a href="https://www.epicgames.com/store/en-US/%22target=%22_blank%22%3EPlay Now</a></button> 
+</div>
+  
+
+
+<footer id="footer">
+    <h2>CONTACTEZ-NOUS</h2> <br>
+    <p>Adresse : Tunis</p><br>
+    <p>E-mail : Achrefjlassi791@gmail.com</p><br>
+     <p1>Tel : 55815839 </p1><br><br>
+   </footer>
+
+main button {
+    width: 250px;
+    height:60px ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+    font-size:30px;
+    margin-top:30px;
+    background: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 0));
+  }
+
+
+
+
+
+
+
+
+ </body>
+ </html>

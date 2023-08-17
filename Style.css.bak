@@ -1,0 +1,74 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+
+
+.lol{
+    height: 90px;
+    width: 120px;
+  }
+  
+  
+  body {
+    font-weight: bold;
+    height: 120vh;
+    background-image: url("images/TEST.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  
+  
+   header{
+   height: 100px;
+   display: flex;
+   align-items: center	;
+   justify-content: space-around;
+  color: #fff;
+  background-image: url("images/img.png");
+  
+ }
+ 
+  header ul {
+   list-style: none;
+   display: flex;
+
+ }
+ 
+ 
+ header ul li {
+   width:120px;
+   height:60px;
+   line-height: 60px;
+   text-align: center;
+   
+ }
+ 
+ 
+  header ul li:hover{
+   background: linear-gradient(#fa0000,#f4f4f4);
+   color: #000;
+
+ }
+ 
+  main{
+   height:calc(100vh - 60px);
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+  }
+  
+    main p{
+    width: 700px;
+    height:80px;
+    line-height:80px;
+    text-align:center;
+    font-size: 50px;
+    background-color: transparent;
+    color: rgb(230, 0, 0);
+
+  }
